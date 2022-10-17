@@ -1,0 +1,58 @@
+.welcome{
+    width: 90vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+.home{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    margin-top: 5vh;
+    margin-right: 30vw;
+    z-index: -1;
+}
+
+.griffindor{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    margin-top: 20vh;
+    margin-right: 30vw;
+    z-index: -1;
+}
+
+@media screen and (min-width: 700px) {
+    .welcome{
+        width: 90vw;
+    }
+    
+    .home{
+        width: 60vw;
+    }
+    
+    .griffindor{
+        width: 60vw;
+        left: 40vw;
+        bottom: .01vh;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .welcome{
+        width: 50vw;
+        margin-left: 25vw;
+    }
+    
+    .home{
+        width: 40vw;
+        left: 10vw;
+    }
+    
+    .griffindor{
+        width: 40vw;
+        left: 40vw;
+        bottom: .1vh;
+    }
+}
