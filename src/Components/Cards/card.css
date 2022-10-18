@@ -33,7 +33,7 @@
 .card:hover{
     background-color: #E8E002;
     color: black;
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 
 .card::-webkit-scrollbar{
