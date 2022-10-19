@@ -18,6 +18,7 @@ function Blogs() {
         <input className='input'/>
         <p className='label'>¿Qué opinas de los libros y/o peliculas?</p>
         <input className='input'/>
+        <button className='publish'>Publish</button>
       </div>
     </div>
 

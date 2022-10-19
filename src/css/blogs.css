@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 .containerBlog::-webkit-scrollbar {
@@ -30,6 +31,7 @@
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 .containerBlog2::-webkit-scrollbar {
@@ -37,7 +39,7 @@
 }
 
 .label{
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 3vh;
 }
 
@@ -56,6 +58,7 @@
 
 .textshowing{
     font-weight: 600;
+    font-size: 10px;
     margin: 1vh
 }
 
@@ -86,24 +89,66 @@
     position: relative;
     bottom: 4.5vh;
     left: 12vw;
+    font-size: 10px;
 }
 
 .bottomcomment{
     height: 5vh;
-    font-size: 10px;
+    font-size: 8px;
     margin: 1px;
+}
+
+.publish{
+    background-color: yellow;
+    height: 5vh;
+    width: 25vw;
+    font-size: 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 5vh;
+    left: 5vw;
 }
 
 @media screen and (min-width: 700px) {
     .containerBlog{
-        width: 40vw;
+        width: 30vw;
         height: 70vh;
     }
 
     .containerBlog2{
-        width: 40vw;
+        width: 50vw;
         left: 1vw;
         top: 20vh;
         height: 70vh;
+        margin-left: 40vw;
+    }   
+
+    .publish{
+        left: 2vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .label{
+        font-size: 15px;
+    }  
+
+    .textshowing{
+        font-size: 15px;
+    }
+
+    .username{
+        font-size: 15px;
+        left: 4vw;
+    }
+
+    .bottomcomment{
+        font-size: 12px;
+    }
+
+    .publish{
+        font-size: 15px;
+        left: 2vw;
     }
 }
