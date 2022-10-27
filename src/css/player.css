@@ -1,33 +1,62 @@
 .containerIframe{
     background-color: white;
-    height: 60vh;
-    width: 50vw;
+    margin-left: 5vw;
+    margin-top: 7vh;
+    width: 90vw;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
-    margin-top: 5vh;
-    margin-left: 3vw;
 }
 
 .iframeStyle{
-    margin-top: 2.5vh;
-    margin-left: 1.5vw;
+    margin-top: 1.5vh;
+    margin-left: 2.5vw;
+    height: 50vh;
+    width: 85vw;
 }
 
 .iframeComments{
-    position: absolute;
-    top: 15vh;
-    margin-left: 55vw;
+    position: relative;
+    top: 3vh;
+    left: 5vw;
     background-color: white;
-    height: 60vh;
-    width: 40vw;
+    height: 30vh;
+    width: 90vw;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .info{
-    position: absolute;
-    left: 3vw;
-    top: 80vh;
+    position: relative;
+    left: 5vw;
+    top: 6vh;
+    margin-bottom: 10vh;
     background-color: white;
     height: 60vh;
-    width: 92vw;
+    width: 90vw;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 700px) {
+    .containerIframe{
+        width: 50vw;
+        margin-left: 3.5vw;
+    }
+
+    .iframeStyle{
+        width: 48vw;
+        margin-left: 1vw;
+    }
+
+    .iframeComments{
+        position: absolute;
+        top: 17.5vh;
+        left: 56vw;
+        width: 40vw;
+        height: 52vh;
+    }
+
+    .info{
+        margin-left: 3.5vw;
+        left: 0vw;
+        width: 93vw;
+        top: 3vh;
+    }
 }
