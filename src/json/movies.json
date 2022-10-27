@@ -7,6 +7,7 @@
         "category": "Fantasy/Adventure",
         "time": "2h 32m",
         "director": "Chris Columbus",
+        "link": "https://mega.nz/file/2RxyWACL#jyv9XzxYLbr_b2SSDbp8REf85fnpp1_ZYKLenY3f-Ww",
         "image": "https://m.media-amazon.com/images/M/MV5BMzkyZGFlOWQtZjFlMi00N2YwLWE2OWQtYTgxY2NkNmM1NjMwXkEyXkFqcGdeQXVyNjY1NTM1MzA@._V1_.jpg"
     },
     {
@@ -17,6 +18,7 @@
         "category": "Fantasy/Adventure",
         "time": "2h 41m", 
         "director": "Chris Columbus",
+        "link": "https://mega.nz/file/OIBRWSTK#SmAHdDS80blWVznDFbppF3xF6YUOPIKqX4JoTvCe1Gg",
         "image": "https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_.jpg"
     },
     {
@@ -27,6 +29,7 @@
         "category": "Fantasy/Adventure",
         "time": "2h 22m",
         "director": "Alfonso Cuarón",
+        "link": "https://mega.nz/file/KIpATSrZ#tj2KEHtWHBu8FP_d78jWPQqvq24JQqD7DJCfdIwBknY",
         "image": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_.jpg"
     },
     {
@@ -37,6 +40,7 @@
         "category": "Fantasy/Adventure",
         "time": "2h 37m",
         "director": "Mike Newell",
+        "link": "https://mega.nz/file/nB4hWDIQ#uU3UZkNquRktQHFYz5wUEuzVPXzWD-nMRIro2YlAFz4",
         "image": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_FMjpg_UX1000_.jpg"
     },
     {
@@ -47,6 +51,7 @@
         "category": "Fantasy/Adventure",
         "time": "2h 18m",
         "director": "David Yates",
+        "link": "https://mega.nz/file/KcZh0Z4B#FQzNcOgIzz4PKek-aDyEh28phu-5pobtAta-igPQn8E",
         "image": "https://m.media-amazon.com/images/M/MV5BMTM0NTczMTUzOV5BMl5BanBnXkFtZTYwMzIxNTg3._V1_FMjpg_UX1000_.jpg"
     },
     {
@@ -57,6 +62,7 @@
         "category": "Fantasy/Adventure",
         "time": "2h 33m",
         "director": "David Yates",
+        "link": "https://mega.nz/file/GVhQABwL#Hx9Tn1WLarGGrvSIzDpNmz649p73imtn_xhxMw0f0qk",
         "image": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_.jpg"
     },
     {
@@ -67,16 +73,18 @@
         "category": "",
         "time": "2h 26m",
         "director": "David Yates",
+        "link": "https://mega.nz/file/TNZkxRaQ#mqiLRo9OL_LX8h4R1TwS01JVQwAfPsKDRgPJ3kHCE9I",
         "image": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_.jpg"
     },
     {
         "id": 8,
-        "name": "Harry Potter And The Deathly Hallows II",
+        "name": "Harry Potter And The Deathly Hallows: Part 2",
         "description": "Harry, Ron and Hermione race against time to destroy the remaining Horcruxes. Meanwhile, the students and teachers unite to defend Hogwarts against Lord Voldemort and the Death Eaters.",
         "year": 2011,
         "category": "Fantasy/Adventure",
         "time": "2h 10m",
         "director": "David Yates",
+        "link": "https://mega.nz/file/TVgDGYqD#OLEpST__89z8uRfys7Jh5xQREPqmCTmBPUsHxOdVDTk",
         "image": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
     }
 ]

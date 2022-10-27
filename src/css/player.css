@@ -1,0 +1,33 @@
+.containerIframe{
+    background-color: white;
+    height: 60vh;
+    width: 50vw;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+
+.iframeStyle{
+    margin-top: 2.5vh;
+    margin-left: 1.5vw;
+}
+
+.iframeComments{
+    position: absolute;
+    top: 15vh;
+    margin-left: 55vw;
+    background-color: white;
+    height: 60vh;
+    width: 40vw;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.info{
+    position: absolute;
+    left: 3vw;
+    top: 80vh;
+    background-color: white;
+    height: 60vh;
+    width: 92vw;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}

@@ -1,7 +1,8 @@
 import React from 'react';
 import '../css/blogs.css';
 
-function Blogs() {
+function Blogs(color) {
+
   return (
     <div>
       <div className='containerBlog'>

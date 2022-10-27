@@ -2,7 +2,9 @@ import React from 'react'
 import Card from "../Components/Cards/Card";
 import dataMovies from '../json/movies.json';
 
-function Movies() {
+function Movies({handleMessage}) {
+  
+
   return (
     <div className="bodyApp">
 
@@ -13,6 +15,9 @@ function Movies() {
               srcImg={dataMovies.image}
               name={dataMovies.name}
               description={dataMovies.description}
+              reference={dataMovies.link}
+              textA={'Go to watch'}
+              handleMessage={handleMessage}
             />
           )
         })
