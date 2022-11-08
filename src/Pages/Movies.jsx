@@ -9,13 +9,12 @@ function Movies() {
         data.moviesharry.map((movie) => {
           return (
             <Card
-              identifier={movie.id}
+              identifierMovies={movie.id}
               key={movie.id}
               srcImg={movie.image}
               name={movie.name}
               description={movie.description}
               reference={movie.link}
-              textA={"Go to watch"}
             />
           );
         })}

@@ -45,7 +45,7 @@ function MoreInfoMovies() {
       </div>
       <div className="iframeComments"></div>
               <div className="info"
-              key={movie.id}>
+                key={movie.id}>
                 <div>{movie.name}</div>
                 <div>{movie.time}</div>
                 <div>{movie.description}</div>

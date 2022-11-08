@@ -6,6 +6,7 @@ import Blogs from "./Pages/Blogs";
 import PageNotFound from "./Pages/PageNotFound";
 import Home from "./Pages/Home";
 import MoreInfoMovies from "./Pages/MoreInfoMovies";
+import MoreInfoBooks from "./Pages/MoreInfoBooks";
 
 function App() {
   return (
@@ -64,7 +65,8 @@ function App() {
         <Route path="/books" element={<Books/>} />
         <Route path="/movies" element={<Movies />}/>
         <Route path="/blogs" element={<Blogs />} />
-        <Route path="/moreinfo/:id" element={<MoreInfoMovies/>} />
+        <Route path="/moreinfomovies/:id" element={<MoreInfoMovies/>} />
+        <Route path="/moreinfobooks/:id" element={<MoreInfoBooks/>} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './card.css'
 
-function Card({name, srcImg, altImg, description, reference, textA, identifier}) {
+function Card({name, srcImg, altImg, description, reference, textA, identifierMovies, identifierBooks}) {
  
   return (
     <div className='card'>
@@ -14,10 +14,10 @@ function Card({name, srcImg, altImg, description, reference, textA, identifier})
             <div className='nameCard'>{name}</div>
             <div className='descriptionCard'>{description}</div>
             <a className='descriptionCard' href={reference}>{textA}</a>
-            <Link to={`/moreinfo/${identifier}`}>Click</Link>
+            <Link to={`/moreinfomovies/${identifierMovies}`}> Click movies</Link>
+            <Link to={`/moreinfobooks/${identifierBooks}`}> Click books</Link>
         </div>
     </div>
-   
   )
 }
 

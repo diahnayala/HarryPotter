@@ -9,13 +9,12 @@ function Books() {
         data.booksharry.map((book) => {
           return (
             <Card
-              identifier={book.id}
+              identifierBooks={book.id}
               key={book.id}
               srcImg={book.image}
               name={book.name}
               description={book.description}
               reference={book.pdf}
-              textA={"Go to read"}
             />
           );
         })}
