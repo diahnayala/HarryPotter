@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './card.css'
 
-function Card({name, srcImg, altImg, description, reference, textA, handleMessage}) {
+function Card({name, srcImg, altImg, description, reference, textA, identifier}) {
+ 
   return (
     <div className='card'>
         <div className='column1'>
@@ -12,7 +14,7 @@ function Card({name, srcImg, altImg, description, reference, textA, handleMessag
             <div className='nameCard'>{name}</div>
             <div className='descriptionCard'>{description}</div>
             <a className='descriptionCard' href={reference}>{textA}</a>
-            <button onClick={()=>{handleMessage()}}>Click me</button>
+            <Link to={`/moreinfo/${identifier}`}>Click</Link>
         </div>
     </div>
    

@@ -1,30 +1,26 @@
-import React from 'react';
+import React from "react";
 import Card from "../Components/Cards/Card";
-import dataBooks from '../json/books.json';
+import data from "../json/books.json";
 
-function Books({handleMessage}) {
+function Books() {
   return (
     <div className="bodyApp">
-
-      {
-        dataBooks && dataBooks.map( dataBooks => {
-          return(
-            <div>
-            <Card key={dataBooks.id}
-              srcImg={dataBooks.image}
-              name={dataBooks.name}
-              description={dataBooks.description}
-              reference={dataBooks.pdf}
-              textA={'Go to read'}
-              handleMessage={handleMessage}
+      {data.booksharry &&
+        data.booksharry.map((book) => {
+          return (
+            <Card
+              identifier={book.id}
+              key={book.id}
+              srcImg={book.image}
+              name={book.name}
+              description={book.description}
+              reference={book.pdf}
+              textA={"Go to read"}
             />
-            </div>
-          )
-        })
-      }
-          
-        </div>
-  )
+          );
+        })}
+    </div>
+  );
 }
 
-export default Books
+export default Books;

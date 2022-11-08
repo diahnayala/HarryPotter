@@ -5,18 +5,9 @@ import Movies from "./Pages/Movies";
 import Blogs from "./Pages/Blogs";
 import PageNotFound from "./Pages/PageNotFound";
 import Home from "./Pages/Home";
-import Player from "./Pages/Player";
-import {Libros, Peliculas} from "./fetch";
-import dataMovies from './json/movies.json';
-import dataBooks from './json/books.json';
+import MoreInfoMovies from "./Pages/MoreInfoMovies";
 
 function App() {
-  const book = Libros(dataBooks);
-  const movie = Peliculas(dataMovies);
-  const handleMessage = ()=>{
-    console.log(book);
-    console.log(movie);
-  }
   return (
     <Router>
       <nav className="navbar" id="main-menu">
@@ -38,9 +29,6 @@ function App() {
           </li>
           <li>
             <Link to="/blogs">Blogs</Link>
-          </li>
-          <li>
-            <Link to="/player">Info</Link>
           </li>
         </ul>
       </nav>
@@ -66,21 +54,20 @@ function App() {
             <li>
               <Link to="/blogs">Blogs</Link>
             </li>
-            <li>
-              <Link to="/player">Info</Link>
-            </li>
           </ul>
         </nav>
       </label>
 
+
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/books" element={<Books handleMessage={handleMessage} />} />
-        <Route path="/movies" element={<Movies handleMessage={handleMessage} />}  />
+        <Route path="/books" element={<Books/>} />
+        <Route path="/movies" element={<Movies />}/>
         <Route path="/blogs" element={<Blogs />} />
-        <Route path="/player" element={<Player />} />
+        <Route path="/moreinfo/:id" element={<MoreInfoMovies/>} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+      
       <div></div>
     </Router>
   );

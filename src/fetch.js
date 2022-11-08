@@ -1,15 +1,23 @@
 const Libros = (dataLibros) => {
-    const llibros = dataLibros.map(dataBook => {
+    const libritos = dataLibros.map(dataBook => {
         return dataBook
     })
-    return llibros
+    return libritos
 }
 
 
 const Peliculas = (dataPeliculas) => {
-    const pelliculas = dataPeliculas.map(dataMovie => {
+    const peliculitas = dataPeliculas.map(dataMovie => {
         return dataMovie
     })
-    return pelliculas
+    return peliculitas
 }
-module.exports = {Libros, Peliculas};
+
+const MovieExactly = (dataPeliculaExactly) => {
+    const result = dataPeliculaExactly.filter(dataPeliculaExactly => dataPeliculaExactly.id === 1);
+    return result
+}
+
+
+
+module.exports = {Libros, Peliculas, MovieExactly};
